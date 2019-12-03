@@ -137,6 +137,7 @@ public class ChessBoard extends JFrame implements ActionListener {
 
 
     public void paintBoard() {
+        setImageIcon(board.tiles);
         for (int y = 0; y < 8; y++) {
             for (int x = 0; x < 8; x++) {
                 if (board.tiles[x][y].isOccupied()) {

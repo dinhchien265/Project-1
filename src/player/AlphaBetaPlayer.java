@@ -15,12 +15,12 @@ public class AlphaBetaPlayer extends Player implements Runnable {
     public AlphaBetaPlayer(boolean color, GameController gc) {
         super(color);
         this.gc = gc;
-        minimax = new MinimaxAlphaBeta(color, 1);
+        minimax = new MinimaxAlphaBeta(color, 2);
     }
 
 
     public Move getNextMove(Board board) {
-        minimax = new MinimaxAlphaBeta(color, 1);
+        minimax = new MinimaxAlphaBeta(color, 2);
         Move move = minimax.Decision(board);
 //		if(minimax.getCount()<15000)
 //			minimax.setMaxDepth(minimax.getMaxDepth()+1);
