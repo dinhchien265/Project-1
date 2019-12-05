@@ -36,6 +36,7 @@ public class GameController {
         chessBoard.setImageIcon(chessBoard.board.tiles);
         chessBoard.paintBoard();
         boardsList.add(chessBoard.board.clone());
+        restoreBackground();
         if (alphaBetaPlayer.getColor() && PvC) {
             alphaBetaPlayer.makeMove(chessBoard.board);
             count++;
@@ -89,7 +90,10 @@ public class GameController {
             return;
         if(count<1)
             return;
-        if(!PvC) count--;
+        if(!PvC){
+            count--;
+            turn =!turn;
+        }
         else if(turn!=humanColor){
             stopThread=true;
             count-=1;
@@ -100,6 +104,7 @@ public class GameController {
         chessBoard.board = boardsList.get(count).clone();
         chessBoard.setImageIcon(chessBoard.board.tiles);
         chessBoard.paintBoard();
+        restoreBackground();
     }
 
     public void redo() {
@@ -109,10 +114,14 @@ public class GameController {
             return;
         if(PvC)
             count+=2;
-        else count++;
+        else {
+            count++;
+            turn=!turn;
+        }
         chessBoard.board = boardsList.get(count).clone();
         chessBoard.setImageIcon(chessBoard.board.tiles);
         chessBoard.paintBoard();
+        restoreBackground();
     }
     //to mau nhung o quan co duoc chon co the di
     private void setBackground(){

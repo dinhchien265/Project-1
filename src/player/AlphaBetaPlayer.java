@@ -45,7 +45,6 @@ public class AlphaBetaPlayer extends Player implements Runnable {
         	gc.count++;
             gc.chessBoard.paintBoard();
             gc.turn = !gc.turn;
-			System.out.println("chien dep trai");
             System.out.println(gc.chessBoard.board.toString());
         }
 

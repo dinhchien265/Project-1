@@ -8,9 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6b4800f9-4ef9-49e3-a26c-786d8c7adf92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChessProject/game/ChessBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessProject/game/ChessBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChessProject/game/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessProject/game/GameController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChessProject/player/AlphaBetaPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChessProject/player/AlphaBetaPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game/ChessBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/ChessBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/AlphaBetaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/AlphaBetaPlayer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +25,7 @@
   <component name="ProjectId" id="1U4BCNp80tY5DS0txYITxXuoiJ5" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/ChessProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -73,6 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574605858400</updated>
     </task>
+    <task id="LOCAL-00001" summary="sua lai nuoc phong hau">
+      <created>1575358736597</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575358736597</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sua lai nuoc phong hau" />
+    <option name="LAST_COMMIT_MESSAGE" value="sua lai nuoc phong hau" />
   </component>
 </project>
