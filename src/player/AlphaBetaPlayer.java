@@ -22,10 +22,10 @@ public class AlphaBetaPlayer extends Player implements Runnable {
     public Move getNextMove(Board board) {
         minimax = new MinimaxAlphaBeta(color, 2);
         Move move = minimax.Decision(board);
-//		if(minimax.getCount()<15000)
-//			minimax.setMaxDepth(minimax.getMaxDepth()+1);
-//		if (minimax.getCount()>20000)
-//			minimax.setMaxDepth(minimax.getMaxDepth()-1);
+		if(minimax.getCount()<15000)
+			minimax.setMaxDepth(minimax.getMaxDepth()+1);
+		if (minimax.getCount()>20000)
+			minimax.setMaxDepth(minimax.getMaxDepth()-1);
         return move;
     }
     public void makeMove(Board board){

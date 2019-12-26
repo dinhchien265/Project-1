@@ -140,7 +140,7 @@ public class GameController {
             chessBoard.jButton[moves.get(i).getX2()][moves.get(i).getY2()].setBackground(Color.BLUE);
         }
     }
-    // bo to mau
+
     private void restoreBackground(){
         for (int y = 0; y < 8; y++) {
             for (int x = 0; x < 8; x++) {

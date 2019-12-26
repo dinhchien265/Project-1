@@ -23,6 +23,7 @@ public class Pawn extends Piece {
             return "p";
     }
 
+
     /**
      * @param b game.Board
      * @param x toa do x
